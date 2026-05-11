@@ -57,7 +57,7 @@
     }
     .nav-logo { display: flex; align-items: center; text-decoration: none; transition: 0.3s; }
     .nav-logo:hover { opacity: 0.8; }
-    .nav-logo img { height: 50px; width: auto; object-fit: contain; }
+    .nav-logo img { height: 100px; width: auto; object-fit: contain; }
 
     .nav-links { display: flex; gap: 2.5rem; list-style: none; align-items: center; }
     .nav-links a { text-decoration: none; color: var(--muted); font-weight: 500; font-size: 0.9rem; transition: 0.3s; }
@@ -112,7 +112,7 @@
       letter-spacing: 0.15em;
       margin-bottom: 2rem;
     }
-    .hero-badge img { height: 20px; width: auto; filter: brightness(1.2); }
+    .hero-badge img { height: 150px; width: auto; filter: brightness(1.2); }
 
     .hero h1 {
       font-family: var(--font-display);
@@ -191,7 +191,7 @@
 
     footer { padding: 5rem 5% 2rem; background: #000; border-top: 1px solid var(--border); text-align: center; }
     .footer-brand { display: flex; align-items: center; justify-content: center; gap: 40px; margin-bottom: 3rem; flex-wrap: wrap; }
-    .footer-brand img { height: 60px; width: auto; object-fit: contain; }
+    .footer-brand img { height: 250px; width: auto; object-fit: contain; }
     .divider { width: 1px; height: 60px; background: var(--border); }
     .copy { color: var(--muted); font-size: 0.8rem; letter-spacing: 0.05em; }
 
@@ -213,7 +213,7 @@
   <nav>
     <a href="#" class="nav-logo" title="L.A.R.I.E - Voltar ao Topo">
       <!-- Logo da L.A.R.I.E -->
-      <img src="larie-Photoroom.jpg" alt="Logo L.A.R.I.E.">
+      <img src="assets/larie.png" alt="Logo L.A.R.I.E." width="300">
     </a>
     <ul class="nav-links">
       <li><a href="#sobre">A Liga</a></li>
@@ -230,8 +230,7 @@
       <div class="hero-content">
         <div class="hero-badge">
           <!-- Logo da Unifaccamp no badge -->
-          <img src="WhatsApp Image 2026-05-09 at 13.26.54-Photoroom.jpg" alt="Logo UNIFACCAMP">
-          <span>UNIFACCAMP</span>
+          <img src="assets/unifaccamp.png" alt="Logo UNIFACCAMP">
         </div>
         <h1>A Ponte para a <span>Inclusão Tecnológica.</span></h1>
         <p>A L.A.R.I.E une a vivência prática acadêmica à educação básica, promovendo a robótica industrial e educacional. Transformamos estudantes em protagonistas na construção do conhecimento.</p>
@@ -330,47 +329,50 @@
 
     <!-- PATROCÍNIO E CONTATO -->
     <section id="patrocinio" class="container">
-      <div class="sponsor-section">
-        <div>
-          <span class="section-label">Apoie a Inovação</span>
-          <h2>Oportunidade para <span>Patrocinadores</span>.</h2>
-          <p style="color: var(--muted); margin-bottom: 2rem;">Associe sua marca ao impacto educacional e tecnológico. Precisamos do apoio de parceiros institucionais para viabilizar e expandir nossos projetos. Como você pode ajudar:</p>
+        <div class="sponsor-section">
+            <div>
+                <span class="section-label">Apoie a Inovação</span>
+                <h2>Oportunidade para <span>Patrocinadores</span>.</h2>
+                <p style="color: var(--muted); margin-bottom: 2rem;">Associe sua marca ao impacto educacional e tecnológico. Precisamos do apoio de parceiros institucionais para viabilizar e expandir nossos projetos. Como você pode ajudar:</p>
           
-          <ul class="sponsor-list">
-            <li><strong>Equipamentos:</strong> Impressoras 3D e filamentos.</li>
-            <li><strong>Eletrônica:</strong> Microcontroladores (ESP32, Arduino, Raspberry Pi Pico), sensores e atuadores.</li>
-            <li><strong>Infraestrutura:</strong> Ferramentas de bancada, chapas de MDF, materiais para as arenas do Esquenta OBR.</li>
-            <li><strong>Logística:</strong> Uniformes, premiações e suporte para os eventos.</li>
-          </ul>
-        </div>
+                <ul class="sponsor-list">
+                    <li><strong>Equipamentos:</strong> Impressoras 3D e filamentos.</li>
+                    <li><strong>Eletrônica:</strong> Microcontroladores (ESP32, Arduino, Raspberry Pi Pico), sensores e atuadores.</li>
+                    <li><strong>Infraestrutura:</strong> Ferramentas de bancada, chapas de MDF, materiais para as arenas do Esquenta OBR.</li>
+                    <li><strong>Logística:</strong> Uniformes, premiações e suporte para os eventos.</li>
+                </ul>
+            </div>
         
-        <div>
-          <form style="background: var(--bg-card2); padding: 3rem; border-radius: 20px; border: 1px solid var(--border);">
-            <h3 style="font-family: var(--font-display); font-size: 1.5rem; margin-bottom: 2rem;">Fale com a Diretoria</h3>
-            <div class="form-group">
-              <label>NOME COMPLETO OU EMPRESA</label>
-              <input type="text" placeholder="Sua Empresa Ltda.">
+            <div>
+                <form action="https://formspree.io/f/mkoyynra" method="POST" style="background: var(--bg-card2); padding: 3rem; border-radius: 20px; border: 1px solid var(--border);">
+                    <h3 style="font-family: var(--font-display); font-size: 1.5rem; margin-bottom: 2rem;">Fale com a diretoria</h3>
+                        <div class="form-group">
+                            <label>NOME COMPLETO OU EMPRESA</label>
+                            <input type="text" name="nome" placeholder="Sua Empresa Ltda." required>
+                        </div>
+
+                        <div class="form-group">
+                            <label>E-MAIL PARA CONTATO</label>
+                            <input type="email" name="email" placeholder="contato@empresa.com" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label>COMO GOSTARIA DE APOIAR?</label>
+                            <textarea name="mensagem" rows="4" placeholder="Tenho interesse em conhecer as cotas de patrocínio..."></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-main" style="width: 100%; border: none; cursor: pointer;">Enviar Mensagem</button>
+                </form>
             </div>
-            <div class="form-group">
-              <label>E-MAIL PARA CONTATO</label>
-              <input type="email" placeholder="contato@empresa.com">
-            </div>
-            <div class="form-group">
-              <label>COMO GOSTARIA DE APOIAR?</label>
-              <textarea rows="4" placeholder="Tenho interesse em conhecer as cotas de patrocínio..."></textarea>
-            </div>
-            <button type="submit" class="btn btn-main" style="width: 100%; border: none; cursor: pointer;">Enviar Mensagem</button>
-          </form>
         </div>
-      </div>
     </section>
   </main>
 
   <footer>
     <div class="footer-brand">
-      <img src="larie-Photoroom.jpg" alt="Logo L.A.R.I.E.">
+      <img src="assets/larie.png" alt="Logo L.A.R.I.E.">
       <div class="divider"></div>
-      <img src="WhatsApp Image 2026-05-09 at 13.26.54-Photoroom.jpg" alt="Logo UNIFACCAMP">
+      <img src="assets/unifaccamp.png" alt="Logo UNIFACCAMP">
     </div>
     <div class="copy">
       &copy; 2026 LIGA ACADÊMICA DE ROBÓTICA INDUSTRIAL E EDUCACIONAL. TODOS OS DIREITOS RESERVADOS.
