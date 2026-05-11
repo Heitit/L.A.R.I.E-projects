@@ -1,4 +1,4 @@
-readme_content = """# L.A.R.I.E. - Landing Page
+"""# L.A.R.I.E. - Landing Page
 
 Este projeto consiste em uma landing page moderna e responsiva desenvolvida para a **Liga Acadêmica L.A.R.I.E.** (Liga Acadêmica de Robótica e Inteligência Estratégica). O site foi projetado para apresentar a missão da liga, seus projetos e facilitar o contato com novos membros.
 
