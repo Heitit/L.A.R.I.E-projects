@@ -1,41 +1,112 @@
-# L.A.R.I.E. - Landing Page
+# L.A.R.I.E. — Liga Acadêmica de Robótica Industrial e Educacional
 
-Este projeto consiste em uma landing page moderna e responsiva desenvolvida para a **Liga Acadêmica L.A.R.I.E.** (Liga Acadêmica de Robótica e Inteligência Estratégica). O site foi projetado para apresentar a missão da liga, seus projetos e facilitar o contato com novos membros.
-
-## 🚀 Tecnologias Utilizadas
-
-O projeto foi construído utilizando as melhores práticas de desenvolvimento web front-end:
-
-* **HTML5**: Estruturação semântica do conteúdo.
-* **CSS3 / Tailwind CSS**: Estilização moderna com foco em utilitários e responsividade.
-* **Git & GitHub**: Versionamento de código e hospedagem.
-
-## 🎨 Identidade Visual e Design
-
-A interface foi desenvolvida seguindo uma estética industrial e profissional, utilizando:
-* **Paleta de Cores**: Predominância de Azul e Amarelo, garantindo alto contraste e uma leitura agradável.
-* **Tipografia**: Uso de fontes personalizadas para reforçar a identidade visual da liga.
-* **Responsividade**: Layout adaptável para dispositivos móveis, tablets e desktops.
-
-## 🛠️ Funcionalidades
-
-- [x] Seção Hero com chamada para ação (CTA).
-- [x] Apresentação institucional da Liga.
-- [x] Galeria de projetos ou áreas de atuação.
-- [x] Design totalmente responsivo.
-
-## 💻 Como Visualizar o Projeto
-
-Você pode acessar a versão online do site através do link abaixo:
-
-🔗 [**Ver site ao vivo**](https://Heitit.github.io/L.A.R.I.E-projects/)
+> Landing page oficial da Liga Acadêmica de Robótica Industrial e Educacional da UNIFACCAMP — Centro Universitário Campo Limpo Paulista.
 
 ---
 
-## 🔧 Como Rodar Localmente
+## 🤖 Sobre o Projeto
 
-Caso queira clonar este repositório e rodar o projeto em sua máquina:
+A **L.A.R.I.E.** é uma iniciativa de extensão universitária da UNIFACCAMP que conecta o ensino superior à educação básica por meio da robótica. O projeto atua com equipes estruturadas de universitários que levam oficinas, competições e vivências tecnológicas para escolas públicas da região.
 
-1. Clone o repositório:
-   ```bash
-   git clone [https://github.com/Heitit/L.A.R.I.E-projects.git](https://github.com/Heitit/L.A.R.I.E-projects.git)
+### Impacto atual
+- **19** escolas atendidas
+- **3** municípios (Campo Limpo Paulista, Várzea Paulista e Jarinu)
+- **+1.500** alunos impactados direta e indiretamente
+
+---
+
+## 🗂️ Estrutura do Repositório
+
+```
+L.A.R.I.E-projects/
+│
+├── index.html          # Landing page principal
+├── assets/
+│   ├── larie.png       # Logo da L.A.R.I.E.
+│   └── unifaccamp.png  # Logo da UNIFACCAMP
+└── README.md
+```
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+- **HTML5** — estrutura semântica
+- **CSS3** — estilização com variáveis CSS, gradientes e animações
+- **JavaScript** — Intersection Observer (animações de scroll), contador animado e menu hamburguer
+- **Google Fonts** — Syne (display) e DM Sans (corpo)
+- **Formspree** — backend do formulário de contato sem servidor
+
+---
+
+## 🎨 Identidade Visual
+
+| Elemento | Valor |
+|---|---|
+| Azul UNIFACCAMP | `#1e71b7` |
+| Dourado accent | `#f5a623` |
+| Fundo | `#f4f6fb` |
+| Fonte display | Syne 700/800 |
+| Fonte corpo | DM Sans 400/500 |
+
+---
+
+## 🚀 Como Rodar Localmente
+
+Não há dependências ou build necessário. Basta:
+
+1. Clonar o repositório
+```bash
+git clone https://github.com/Heitit/L.A.R.I.E-projects.git
+```
+
+2. Abrir o arquivo `index.html` diretamente no navegador
+
+> As imagens dependem da pasta `assets/` estar no mesmo diretório que o `index.html`.
+
+---
+
+## 🌐 Deploy e Hospedagem
+
+O site pode ser hospedado gratuitamente via **Vercel** ou **Netlify** com domínio customizado. Recomendamos registrar um domínio institucional no [Registro.br](https://registro.br) desvinculado de perfis pessoais.
+
+Sugestões de domínio:
+- `larie-unifaccamp.com.br`
+- `larierobotica.org.br`
+
+---
+
+## 📋 Frentes de Trabalho da Liga
+
+| # | Frente | Responsabilidade |
+|---|---|---|
+| 01 | Projetos Técnicos | Hardware, software, eletrônica, mecânica e arenas |
+| 02 | Extensão e Formação | Oficinas nas escolas e capacitação de professores |
+| 03 | Pesquisa e Inovação | Artigos científicos e documentação técnica |
+| 04 | Comunicação e Parcerias | Identidade visual, redes sociais e patrocinadores |
+
+---
+
+## 🤝 Seja Parceiro
+
+A L.A.R.I.E. busca parceiros institucionais para viabilizar e expandir seus projetos. Contribuições podem ser em equipamentos, eletrônica, infraestrutura ou logística.
+
+Entre em contato pelo formulário no site ou diretamente pela diretoria da liga.
+
+---
+
+## 📌 Roadmap
+
+- [ ] Registrar domínio próprio e migrar para Vercel
+- [ ] Criar perfis institucionais no Instagram e LinkedIn
+- [ ] Adicionar seção de membros/equipe com fotos
+- [ ] Adicionar galeria de fotos dos eventos
+- [ ] Implementar seção de blog/notícias
+- [ ] Criar página de inscrição para novos membros
+- [ ] Otimizar imagens para `.webp` e adicionar meta tags de SEO
+
+---
+
+## 📄 Licença
+
+Este projeto pertence à **Liga Acadêmica de Robótica Industrial e Educacional — UNIFACCAMP**. Todos os direitos reservados.
