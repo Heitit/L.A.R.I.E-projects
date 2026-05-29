@@ -4,7 +4,7 @@
 
 ---
 
-## 🤖 Sobre o Projeto
+## Sobre o Projeto
 
 A **L.A.R.I.E.** é uma iniciativa de extensão universitária da UNIFACCAMP que conecta o ensino superior à educação básica por meio da robótica. O projeto atua com equipes estruturadas de universitários que levam oficinas, competições e vivências tecnológicas para escolas públicas da região.
 
@@ -15,7 +15,7 @@ A **L.A.R.I.E.** é uma iniciativa de extensão universitária da UNIFACCAMP que
 
 ---
 
-## 🗂️ Estrutura do Repositório
+## Estrutura do Repositório
 
 ```
 L.A.R.I.E-projects/
@@ -29,7 +29,7 @@ L.A.R.I.E-projects/
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 - **HTML5** — estrutura semântica
 - **CSS3** — estilização com variáveis CSS, gradientes e animações
@@ -39,7 +39,7 @@ L.A.R.I.E-projects/
 
 ---
 
-## 🎨 Identidade Visual
+## Identidade Visual
 
 | Elemento | Valor |
 |---|---|
@@ -51,7 +51,7 @@ L.A.R.I.E-projects/
 
 ---
 
-## 🚀 Como Rodar Localmente
+## Como Rodar Localmente
 
 Não há dependências ou build necessário. Basta:
 
@@ -66,17 +66,7 @@ git clone https://github.com/Heitit/L.A.R.I.E-projects.git
 
 ---
 
-## 🌐 Deploy e Hospedagem
-
-O site pode ser hospedado gratuitamente via **Vercel** ou **Netlify** com domínio customizado. Recomendamos registrar um domínio institucional no [Registro.br](https://registro.br) desvinculado de perfis pessoais.
-
-Sugestões de domínio:
-- `larie-unifaccamp.com.br`
-- `larierobotica.org.br`
-
----
-
-## 📋 Frentes de Trabalho da Liga
+## Frentes de Trabalho da Liga
 
 | # | Frente | Responsabilidade |
 |---|---|---|
@@ -87,7 +77,7 @@ Sugestões de domínio:
 
 ---
 
-## 🤝 Seja Parceiro
+## Seja Parceiro
 
 A L.A.R.I.E. busca parceiros institucionais para viabilizar e expandir seus projetos. Contribuições podem ser em equipamentos, eletrônica, infraestrutura ou logística.
 
@@ -95,7 +85,7 @@ Entre em contato pelo formulário no site ou diretamente pela diretoria da liga.
 
 ---
 
-## 📌 Roadmap
+## Roadmap
 
 - [ ] Registrar domínio próprio e migrar para Vercel
 - [ ] Criar perfis institucionais no Instagram e LinkedIn
@@ -107,6 +97,6 @@ Entre em contato pelo formulário no site ou diretamente pela diretoria da liga.
 
 ---
 
-## 📄 Licença
+## Licença
 
 Este projeto pertence à **Liga Acadêmica de Robótica Industrial e Educacional — UNIFACCAMP**. Todos os direitos reservados.
